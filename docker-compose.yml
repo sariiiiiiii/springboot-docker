@@ -1,0 +1,7 @@
+services:
+  docker-test:
+    container_name: docker-test
+    restart: always
+    image: registry.postline.co.kr/post-saas/docker-test-app:1.0.2
+    ports:
+      - "8089:8080"
